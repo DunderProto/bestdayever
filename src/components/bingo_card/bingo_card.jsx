@@ -8,7 +8,15 @@ class BingoCard extends React.Component {
 
     render() {
         return (
-            <div>HELLO WORLD</div>
+            <>  
+                <div className="bingo_card">
+                    <div>
+                        <img src={this.props.icon} alt="Sports"/>
+                    </div>
+                    <div>{this.props.title}</div>
+                </div>
+                
+            </>
         )
     }
 }
