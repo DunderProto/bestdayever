@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import BingoCard from './components/bingo_card/bingo_card.jsx';
+import BingoContainer from './components/bingo_container/bingo_container.jsx';
+import SideBar from './components/side_bar/side_bar.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BingoCard />
+    </>
   );
 }
 
