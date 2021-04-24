@@ -1,7 +1,100 @@
 .bingo_card {
-    border: 2px solid green;
+    border: 2px solid #156433;
     width: 100px;
     height: 100px;
-    margin: 10px;
+    margin: 8px;
     border-radius: 7px;
+    flex-direction: column;
+}
+
+.bingo_card_title {
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    color: #156433;
+}
+
+.bingo_card_icon_container { 
+    padding-top: 5px;
+    margin: 0 auto;
+}
+
+.bingo_card_icon {
+    width: 70px;
+    height: 70px;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .bingo_card {
+        width: 85px;
+        height: 85px;
+    }
+
+    .bingo_card_icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .bingo_card {
+        width: 75px;
+        height: 75px;
+    }
+
+    .bingo_card_icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .bingo_card {
+        width: 60px;
+        height: 60px;
+        margin: 6px;
+    }
+
+    .bingo_card_title {
+        font-size: 10px;
+    }
+
+    .bingo_card_icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .bingo_card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .bingo_card_title {
+        font-size: 9px;
+    }
+
+    .bingo_card_icon {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .bingo_card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .bingo_card_title {
+        font-size: 8px;
+    }
+
+    .bingo_card_icon {
+        width: 20px;
+        height: 20px;
+    }
 }

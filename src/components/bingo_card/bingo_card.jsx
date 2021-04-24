@@ -11,10 +11,10 @@ class BingoCard extends React.Component {
         return (
             <>  
                 <div className="bingo_card flex">
-                    {/* <div>
-                        <img src={this.props.icon} alt="Sports"/>
+                    <div className="bingo_card_icon_container">
+                        <img className="bingo_card_icon" src={this.props.icon} alt="Sports"/>
                     </div>
-                    <div>{this.props.title}</div> */}
+                    <div className="bingo_card_title">{this.props.title}</div>
                 </div>
                 
             </>
