@@ -6,7 +6,7 @@ import MainSection from './components/main_section/main_section.jsx';
 function App() {
   return (
     <>
-      <div className="App">
+      <div className="App flex">
         <SideBar />
         <MainSection />
       </div>
