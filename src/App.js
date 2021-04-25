@@ -6,7 +6,10 @@ import MainSection from './components/main_section/main_section.jsx';
 function App() {
   return (
     <>
-      <MainSection />
+      <div className="App">
+        <SideBar />
+        <MainSection />
+      </div>
     </>
   );
 }
