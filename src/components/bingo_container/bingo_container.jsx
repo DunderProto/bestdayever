@@ -15,9 +15,15 @@ class BingoContainer extends React.Component {
             <>
                 <div className="bingo_container flex">
                     {bingo.map(card => {
-                        return (
-                            <BingoCard title={card['title']} icon={card['icon']} />
-                        )
+                        if (card['title'] == "Free") {
+                            return (
+                                <BingoCard className="free_card" title={card['title']} icon={card['icon']} />
+                            )
+                        } else {
+                            return (
+                                <BingoCard title={card['title']} icon={card['icon']} />
+                            )
+                        }
                     })}
                 </div>
             </>

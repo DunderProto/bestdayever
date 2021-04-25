@@ -8,17 +8,30 @@ class BingoCard extends React.Component {
     }
 
     render() {
-        return (
-            <>  
-                <div className="bingo_card flex">
-                    <div className="bingo_card_icon_container">
-                        <img className="bingo_card_icon" src={this.props.icon} alt="Sports"/>
+        if (this.props.className) {
+            return (
+                <>  
+                    <div className="bingo_card free_card flex">
+                        <div className="bingo_card_icon_container">
+                            <img className="bingo_card_icon" src={this.props.icon} alt="Sports"/>
+                        </div>
+                        <div className="bingo_card_free">{this.props.title}</div>
                     </div>
-                    <div className="bingo_card_title">{this.props.title}</div>
-                </div>
-                
-            </>
-        )
+                </>
+            )
+        } else {
+            return (
+                <>  
+                    <div className="bingo_card flex">
+                        <div className="bingo_card_icon_container">
+                            <img className="bingo_card_icon" src={this.props.icon} alt="Sports"/>
+                        </div>
+                        <div className="bingo_card_title">{this.props.title}</div>
+                    </div>
+                    
+                </>
+            )
+        }
     }
 }
 
