@@ -18,7 +18,7 @@ class SideBar extends React.Component {
                         <p className="welcome_text">Welcome to</p>
                         <h1 className="welcome_event">Football Masters</h1>
                     </div>
-                    <div className="bottom_image">
+                    <div className="bottom_image flex">
                         <img className="side_bar_logo_bottom" src="https://image-test-ssk.s3.amazonaws.com/BDE.png" alt=""/>
                     </div>
                 </div>

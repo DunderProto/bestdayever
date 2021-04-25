@@ -34,6 +34,16 @@
     margin: 0;
 }
 
+.bottom_image {
+    position: relative;
+    top: 325px;
+    background: radial-gradient(closest-side, rgb(118, 145, 116), #052913, black);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
 .side_bar_logo_bottom {
     height: 100px;
+    display: block;
 }
