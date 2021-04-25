@@ -4,3 +4,36 @@
     margin-right: 50px;
     box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1), 0 9px 46px 8px rgba(0, 0, 0, 0.05), 0 11px 15px -7px rgba(0, 0, 0, 0.1);
 }
+
+.side_bar_logo_container {
+    height: 250px;
+}
+
+.side_bar_logo {
+    height: 100px;
+    position: relative;
+    top: 125px;
+    left: 40px;
+}
+
+.side_bar_welcome {
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    border-left: 10px solid #156433;
+    padding-left: 25px;
+    color: #737373;
+}
+
+.welcome_text {
+    margin: 0;
+    font-size: 15px;
+}
+
+.welcome_event {
+    margin: 0;
+}
+
+.side_bar_logo_bottom {
+    height: 100px;
+}
