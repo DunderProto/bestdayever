@@ -47,3 +47,23 @@
     height: 100px;
     display: block;
 }
+
+@media only screen and (max-width: 1200px) {
+
+    .side_bar {
+        margin-right: 0;
+        height: 300px;
+    }
+
+    .side_bar_logo_container {
+        height: 150px;
+    }
+
+    .side_bar_logo {
+        top: 25px;
+    }
+
+    .bottom_image {
+        display: none;
+    }
+}
