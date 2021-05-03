@@ -96,8 +96,8 @@
 
 @media only screen and (max-width: 481px) {
     .bingo_card {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
     }
 
     .bingo_card_title {
@@ -112,8 +112,8 @@
 
 @media only screen and (max-width: 320px) {
     .bingo_card {
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
     }
 
     .bingo_card_title {

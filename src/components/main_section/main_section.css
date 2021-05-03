@@ -59,11 +59,19 @@
         max-width: 350px;
         min-width: 350px;
     }
+
+    .main_section_description {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .main_section {
         max-width: 300px;
         min-width: 300px;
+    }
+
+    .main_section_description {
+        font-size: 12px;
     }
 }
